@@ -1,0 +1,6 @@
+framework module Pods_NCVideoTool {
+  umbrella header "Pods-NCVideoTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

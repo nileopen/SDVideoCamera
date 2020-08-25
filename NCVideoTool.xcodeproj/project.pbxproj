@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30A69933871395D0B2A4F23A /* Pods_NCVideoTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E959955BBB2D52A7CC18FED8 /* Pods_NCVideoTool.framework */; };
 		E5058B9D245AD99A00CF07CB /* SDVideoPreviewMusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5058B9C245AD99A00CF07CB /* SDVideoPreviewMusicCell.m */; };
 		E5058B9F245AEF3300CF07CB /* sd_preview_music_default_image@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5058B9E245AEF3300CF07CB /* sd_preview_music_default_image@3x.png */; };
 		E5058BA1245AEF4F00CF07CB /* sd_preview_music_more_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5058BA0245AEF4F00CF07CB /* sd_preview_music_more_icon@3x.png */; };
@@ -152,6 +153,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E9D185112B40B4AB852B3B5 /* Pods-NCVideoTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCVideoTool.release.xcconfig"; path = "Target Support Files/Pods-NCVideoTool/Pods-NCVideoTool.release.xcconfig"; sourceTree = "<group>"; };
+		E4E211A22CA61089B66685D7 /* Pods-NCVideoTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCVideoTool.debug.xcconfig"; path = "Target Support Files/Pods-NCVideoTool/Pods-NCVideoTool.debug.xcconfig"; sourceTree = "<group>"; };
 		E5058B9B245AD99A00CF07CB /* SDVideoPreviewMusicCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDVideoPreviewMusicCell.h; sourceTree = "<group>"; };
 		E5058B9C245AD99A00CF07CB /* SDVideoPreviewMusicCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDVideoPreviewMusicCell.m; sourceTree = "<group>"; };
 		E5058B9E245AEF3300CF07CB /* sd_preview_music_default_image@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sd_preview_music_default_image@3x.png"; sourceTree = "<group>"; };
@@ -179,7 +182,7 @@
 		E50F0AFC2456CCA900131AE0 /* SDVideoCropItemDeleteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDVideoCropItemDeleteView.m; sourceTree = "<group>"; };
 		E50F0AFE2456D1FF00131AE0 /* sd_corp_cancle_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sd_corp_cancle_icon@3x.png"; sourceTree = "<group>"; };
 		E50F0B042456D50600131AE0 /* sd_corp_delete_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sd_corp_delete_icon@3x.png"; sourceTree = "<group>"; };
-		E52E130924558B1100B69D50 /* VideoCameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoCameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52E130924558B1100B69D50 /* NCVideoTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCVideoTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52E130C24558B1100B69D50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E52E130D24558B1100B69D50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E52E131224558B1100B69D50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -348,6 +351,7 @@
 		E5E6BEAF245D717200663E7C /* sd_video_loading0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sd_video_loading0@2x.png"; sourceTree = "<group>"; };
 		E5E6BEB0245D717200663E7C /* sd_video_loading54@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sd_video_loading54@2x.png"; sourceTree = "<group>"; };
 		E5E6BEB1245D717200663E7C /* sd_video_loading40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sd_video_loading40@2x.png"; sourceTree = "<group>"; };
+		E959955BBB2D52A7CC18FED8 /* Pods_NCVideoTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NCVideoTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -355,31 +359,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A69933871395D0B2A4F23A /* Pods_NCVideoTool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DACA2CAF426019B8921F5E3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4E211A22CA61089B66685D7 /* Pods-NCVideoTool.debug.xcconfig */,
+				0E9D185112B40B4AB852B3B5 /* Pods-NCVideoTool.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E52E130024558B1100B69D50 = {
 			isa = PBXGroup;
 			children = (
-				E52E132524558B4C00B69D50 /* SDVideoCamera */,
-				E52E130B24558B1100B69D50 /* VideoCameraDemo */,
+				E52E132524558B4C00B69D50 /* NCVideoCamera */,
+				E52E130B24558B1100B69D50 /* NCVideoTool */,
 				E52E130A24558B1100B69D50 /* Products */,
 				E59BBFD1245865D10053D512 /* Frameworks */,
+				DACA2CAF426019B8921F5E3F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		E52E130A24558B1100B69D50 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E52E130924558B1100B69D50 /* VideoCameraDemo.app */,
+				E52E130924558B1100B69D50 /* NCVideoTool.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E52E130B24558B1100B69D50 /* VideoCameraDemo */ = {
+		E52E130B24558B1100B69D50 /* NCVideoTool */ = {
 			isa = PBXGroup;
 			children = (
 				E52E130C24558B1100B69D50 /* AppDelegate.h */,
@@ -393,10 +408,10 @@
 				E52E131D24558B1200B69D50 /* Info.plist */,
 				E52E131E24558B1200B69D50 /* main.m */,
 			);
-			path = VideoCameraDemo;
+			path = NCVideoTool;
 			sourceTree = "<group>";
 		};
-		E52E132524558B4C00B69D50 /* SDVideoCamera */ = {
+		E52E132524558B4C00B69D50 /* NCVideoCamera */ = {
 			isa = PBXGroup;
 			children = (
 				E52E135124558B4C00B69D50 /* Album */,
@@ -411,7 +426,7 @@
 				E52E135F24558B4C00B69D50 /* SDVideoController.h */,
 				E52E134D24558B4C00B69D50 /* SDVideoController.m */,
 			);
-			path = SDVideoCamera;
+			path = NCVideoCamera;
 			sourceTree = "<group>";
 		};
 		E52E132624558B4C00B69D50 /* Camera */ = {
@@ -569,6 +584,7 @@
 				E59BBFD6245865E90053D512 /* CoreVideo.framework */,
 				E59BBFD4245865E10053D512 /* CoreMedia.framework */,
 				E59BBFD2245865D10053D512 /* AssetsLibrary.framework */,
+				E959955BBB2D52A7CC18FED8 /* Pods_NCVideoTool.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -670,10 +686,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E52E130824558B1100B69D50 /* VideoCameraDemo */ = {
+		E52E130824558B1100B69D50 /* NCVideoTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E52E132224558B1200B69D50 /* Build configuration list for PBXNativeTarget "VideoCameraDemo" */;
+			buildConfigurationList = E52E132224558B1200B69D50 /* Build configuration list for PBXNativeTarget "NCVideoTool" */;
 			buildPhases = (
+				DB8B2E6C7B6BAE720010709B /* [CP] Check Pods Manifest.lock */,
 				E52E130524558B1100B69D50 /* Sources */,
 				E52E130624558B1100B69D50 /* Frameworks */,
 				E52E130724558B1100B69D50 /* Resources */,
@@ -682,9 +699,9 @@
 			);
 			dependencies = (
 			);
-			name = VideoCameraDemo;
+			name = NCVideoTool;
 			productName = VideoCameraDemo;
-			productReference = E52E130924558B1100B69D50 /* VideoCameraDemo.app */;
+			productReference = E52E130924558B1100B69D50 /* NCVideoTool.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -701,7 +718,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E52E130424558B1100B69D50 /* Build configuration list for PBXProject "VideoCameraDemo" */;
+			buildConfigurationList = E52E130424558B1100B69D50 /* Build configuration list for PBXProject "NCVideoTool" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -714,7 +731,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E52E130824558B1100B69D50 /* VideoCameraDemo */,
+				E52E130824558B1100B69D50 /* NCVideoTool */,
 			);
 		};
 /* End PBXProject section */
@@ -825,6 +842,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB8B2E6C7B6BAE720010709B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NCVideoTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E52E130524558B1100B69D50 /* Sources */ = {
@@ -1013,16 +1055,18 @@
 		};
 		E52E132324558B1200B69D50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E211A22CA61089B66685D7 /* Pods-NCVideoTool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 76HE6TP5SH;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NNLH22ZC57;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SDVideoCamera/Helpers",
 					"$(PROJECT_DIR)/SDVideoCamera/Vendors",
 				);
-				INFOPLIST_FILE = VideoCameraDemo/Info.plist;
+				INFOPLIST_FILE = NCVideoTool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1032,24 +1076,27 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/SDVideoCamera/Vendors",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dong.VideoCameraDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjc.magicmelon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = MagicMe_DEVE;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E52E132424558B1200B69D50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E9D185112B40B4AB852B3B5 /* Pods-NCVideoTool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 76HE6TP5SH;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NNLH22ZC57;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SDVideoCamera/Helpers",
 					"$(PROJECT_DIR)/SDVideoCamera/Vendors",
 				);
-				INFOPLIST_FILE = VideoCameraDemo/Info.plist;
+				INFOPLIST_FILE = NCVideoTool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1059,8 +1106,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/SDVideoCamera/Vendors",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dong.VideoCameraDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjc.magicmelon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = MagicMe_DEVE;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -1068,7 +1116,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E52E130424558B1100B69D50 /* Build configuration list for PBXProject "VideoCameraDemo" */ = {
+		E52E130424558B1100B69D50 /* Build configuration list for PBXProject "NCVideoTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E52E132024558B1200B69D50 /* Debug */,
@@ -1077,7 +1125,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E52E132224558B1200B69D50 /* Build configuration list for PBXNativeTarget "VideoCameraDemo" */ = {
+		E52E132224558B1200B69D50 /* Build configuration list for PBXNativeTarget "NCVideoTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E52E132324558B1200B69D50 /* Debug */,
